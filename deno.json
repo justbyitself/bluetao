@@ -1,0 +1,28 @@
+{
+  "name": "@justbyitself/bluetao",
+  "version": "0.1.0",
+  "exports": "./src/index.js",
+  "imports": {
+    "morphity": "jsr:@justbyitself/morphity@^0.2.2",
+    "@functions": "./src/functions/index.js",
+    "@slots": "./src/slots.js",
+    "@container": "./src/container.js",
+    "@type": "./src/type.js",
+    "@types": "./src/types.js",
+    "@bluetao": "./src/index.js"
+  },
+  "tasks": {
+    "test": "deno test --allow-read"
+  },
+  "fmt": {
+    "useTabs": false,
+    "lineWidth": 100,
+    "indentWidth": 2,
+    "semiColons": false
+  },
+  "lint": {
+    "rules": {
+      "tags": ["recommended"]
+    }
+  }
+}
