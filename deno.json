@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "exports": "./src/index.js",
   "imports": {
-    "morphity": "jsr:@justbyitself/morphity@^0.2.2",
+    "morphity": "jsr:@justbyitself/morphity@^0.2.3",
     "@functions": "./src/functions/index.js",
     "@slots": "./src/slots.js",
     "@container": "./src/container.js",
