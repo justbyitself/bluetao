@@ -1,0 +1,1 @@
+export default s => t => s.startsWith(t)
