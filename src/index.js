@@ -16,15 +16,15 @@ import './traits/pipeline.js'
 
 
 import * as slots from '@slots'
-import { withArity, cond } from '@functions'
+import { defer, defer2, cond } from '@functions'
 
 // Data-last versions
-export const map = withArity(2)(slots.map)
-export const filter = withArity(2)(slots.filter)
-export const reduce = withArity(3)(slots.reduce)
-export const find = withArity(2)(slots.find)
+export const map = defer(slots.map)
+export const filter = defer(slots.filter)
+export const reduce = defer2(slots.reduce)
+export const find = defer(slots.find)
 export const match = slots.match
-export const pipeline = withArity(2)(slots.pipeline)
+export const pipeline = defer(slots.pipeline)
 
 // Functions that don't need withArity
 export { cond }

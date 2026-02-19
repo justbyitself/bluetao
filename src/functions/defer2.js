@@ -1,0 +1,1 @@
+export default f => a => b => c => f(c)(a)(b)
