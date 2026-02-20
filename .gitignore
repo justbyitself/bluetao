@@ -2,7 +2,7 @@
 .deno/
 deno.lock
 
-# Node (por si en el futuro)
+# Node
 node_modules/
 package-lock.json
 
@@ -20,3 +20,9 @@ Thumbs.db
 # Build/dist
 dist/
 build/
+
+# Generated files — run: deno task generate
+src/slots.js
+src/types.js
+src/index.js
+src/functions/index.js
