@@ -1,5 +1,5 @@
-import { assertEquals } from "https://deno.land/std@0.203.0/assert/mod.ts"
-import { pipeline, map, filter } from "../src/index.js"
+import { assertEquals } from  "assert"
+import { pipeline, map, filter } from "@bluetao"
 
 Deno.test("pipeline - transforms array and returns array", () => {
   const result = pipeline([map(x => x * 2)])([1, 2, 3])

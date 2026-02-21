@@ -1,5 +1,5 @@
-import { assertEquals } from "https://deno.land/std@0.203.0/assert/mod.ts"
-import { toIterable } from "../src/index.js"
+import { assertEquals } from  "assert"
+import { toIterable } from "@bluetao"
 
 Deno.test("iterable - works with arrays", () => {
   assertEquals([...toIterable([1, 2, 3])], [1, 2, 3])

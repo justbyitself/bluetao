@@ -1,5 +1,5 @@
-import { assertEquals } from "https://deno.land/std@0.203.0/assert/mod.ts"
-import { map, filter } from "../src/index.js"
+import { assertEquals } from  "assert"
+import { map, filter } from "@bluetao"
 
 Deno.test("map - transforms array elements", () => {
   const result = map(x => x * 2)([1, 2, 3])

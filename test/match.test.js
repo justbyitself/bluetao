@@ -1,5 +1,5 @@
-import { assertEquals } from "https://deno.land/std@0.203.0/assert/mod.ts"
-import { match, types } from "../src/index.js"
+import { assertEquals } from  "assert"
+import { match, types } from "@bluetao"
 
 Deno.test("match - matches exact value", () => {
   const result = match(5)(5)

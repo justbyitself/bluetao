@@ -1,6 +1,6 @@
-import { assertEquals } from "https://deno.land/std@0.203.0/assert/mod.ts"
+import { assertEquals } from  "assert"
 
-import { types, getType, match } from "../src/index.js"
+import { types, getType, match } from "@bluetao"
 
 Deno.test("getType - returns array type for arrays", () => {
   assertEquals(getType([1, 2, 3]), types.array)

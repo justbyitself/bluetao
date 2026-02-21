@@ -1,5 +1,5 @@
-import { assertEquals } from "https://deno.land/std@0.203.0/assert/mod.ts"
-import { find } from "../src/index.js"
+import { assertEquals } from  "assert"
+import { find } from "@bluetao"
 
 Deno.test("find - finds first matching element in array", () => {
   const result = find(x => x > 2)([1, 2, 3, 4])

@@ -1,6 +1,6 @@
-import { assertEquals } from "https://deno.land/std@0.203.0/assert/mod.ts"
+import { assertEquals } from  "assert"
 
-import { types, empty, fromIterableTo } from "../src/index.js"
+import { types, empty, fromIterableTo } from "@bluetao"
 
 Deno.test("arrayType - empty returns empty array", () => {
   const result = empty(types.array)

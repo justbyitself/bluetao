@@ -1,5 +1,5 @@
-import { assertEquals } from "https://deno.land/std@0.203.0/assert/mod.ts"
-import { reduce } from "../src/index.js"
+import { assertEquals } from  "assert"
+import { reduce } from "@bluetao"
 
 Deno.test("reduce - sums array of numbers", () => {
   const result = reduce(acc => x => acc + x)(0)([1, 2, 3, 4])

@@ -1,6 +1,6 @@
-import { assertEquals } from "https://deno.land/std@0.203.0/assert/mod.ts"
+import { assertEquals } from  "assert"
 // Import from index.js to ensure traits are registered
-import "../src/index.js"
+import "@bluetao"
 import * as slots from "../src/slots.js"
 
 const arr = [1, 2, 3, 4]

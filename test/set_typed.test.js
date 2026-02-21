@@ -1,6 +1,6 @@
-import { assertEquals } from "https://deno.land/std@0.203.0/assert/mod.ts"
+import { assertEquals } from  "assert"
 
-import { types, getType, match } from "../src/index.js"
+import { types, getType, match } from "@bluetao"
 
 Deno.test("getType - returns set type for Sets", () => {
   assertEquals(getType(new Set([1, 2, 3])), types.set)
