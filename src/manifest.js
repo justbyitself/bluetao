@@ -27,4 +27,10 @@ export const slots = [
   ['min'],
   ['mod'],
   ['quotient'],
+  ['abs'],
+  ['isEqualTo'],
+  ['isGreaterThan'],
+  ['isLesserThan'],
+  ['isGreaterThanOrEqualTo'],
+  ['isLesserThanOrEqualTo'],
 ]
