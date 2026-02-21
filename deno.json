@@ -4,6 +4,7 @@
   "exports": "./src/index.js",
   "imports": {
     "morphity": "jsr:@justbyitself/morphity@^0.2.3",
+    "assert": "https://deno.land/std@0.203.0/assert/mod.ts",
     "@functions": "./src/functions/index.js",
     "@slots": "./src/slots.js",
     "@container": "./src/container.js",
@@ -12,7 +13,8 @@
     "@bluetao": "./src/index.js"
   },
   "tasks": {
-    "test": "deno test --allow-read"
+    "generate": "deno run --allow-read --allow-write scripts/generate.js",
+    "test": "deno task generate && deno test --allow-read"
   },
   "fmt": {
     "useTabs": false,
