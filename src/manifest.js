@@ -33,4 +33,8 @@ export const slots = [
   ['isLesserThan'],
   ['isGreaterThanOrEqualTo'],
   ['isLesserThanOrEqualTo'],
+  ['camelToKebab'],
+  ['toUpper'],
+  ['isUpper'],
+  ['trim']
 ]

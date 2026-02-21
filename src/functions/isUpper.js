@@ -1,1 +1,1 @@
-export const isUpper = s => s === s.toUpperCase()
+export default s => s === s.toUpperCase()
