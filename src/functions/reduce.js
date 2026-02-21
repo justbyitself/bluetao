@@ -1,5 +1,3 @@
-// reduce :: iterable -> fn -> initialValue -> result
-// data-first: iterable comes first, fully curried
 export default iterable => fn => initialValue => {
   let acc = initialValue
   for (const value of iterable) {
